@@ -1,0 +1,14 @@
+{
+  "note": "Fictional sample phrases for Demo Mode (seeded via demo_data.dart).",
+  "phrases": [
+    {"id": "demo-phrase-0", "text": "I want water", "isFavorite": true},
+    {"id": "demo-phrase-1", "text": "I am hungry", "isFavorite": true},
+    {"id": "demo-phrase-2", "text": "I need help", "isFavorite": true},
+    {"id": "demo-phrase-3", "text": "I want to go home"},
+    {"id": "demo-phrase-4", "text": "I feel uncomfortable"},
+    {"id": "demo-phrase-5", "text": "Please wait"},
+    {"id": "demo-phrase-6", "text": "Call my parent"},
+    {"id": "demo-phrase-7", "text": "I need a break"},
+    {"id": "demo-phrase-8", "text": "I do not understand"}
+  ]
+}

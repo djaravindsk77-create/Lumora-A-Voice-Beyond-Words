@@ -1,0 +1,9 @@
+{
+  "note": "Lumora ships icon-based sample cards rendered from lib/data/demo/demo_data.dart so the board works with zero binary assets. This file documents the category/card schema and is read by tools; adding JSON entries here requires syncing ids with demo_data.dart.",
+  "schema": {
+    "PictureCategory": ["id", "nameEn", "nameTa", "iconKey", "colorName", "orderIndex"],
+    "PictureCard": ["id", "categoryId", "labelEn", "labelTa", "iconKey", "colorName", "isFavorite", "usageCount", "orderIndex"]
+  },
+  "categories": 16,
+  "cards": 70
+}

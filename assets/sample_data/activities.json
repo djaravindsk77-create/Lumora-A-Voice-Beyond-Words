@@ -1,0 +1,4 @@
+{
+  "note": "Eighteen learning activities with rule-based question banks are defined in lib/features/learning/learning_catalog.dart; this manifest documents the schema.",
+  "schema": {"LearningActivity": ["id", "category", "titleKey", "iconKey", "colorName", "levels"]}
+}

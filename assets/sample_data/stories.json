@@ -1,0 +1,4 @@
+{
+  "note": "Ten built-in social stories are defined in lib/data/demo/demo_data.dart with English and Tamil page text; this manifest documents the schema.",
+  "schema": {"Story": ["id", "title", "titleTa", "pages[]", "iconKey", "colorName", "isSocial"]}
+}
