@@ -287,4 +287,4 @@ flutter test         # unit + widget tests (test/)
 flutter build apk --debug
 ```
 
-All demo data is fictional. Lumora is a college project, not a medical device.
+
