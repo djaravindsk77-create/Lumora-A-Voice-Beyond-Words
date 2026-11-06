@@ -1,3 +1,4 @@
+
 # Miscellaneous
 *.class
 *.log
@@ -12,7 +13,7 @@
 .swiftpm/
 migrate_working_dir/
 
-# IntelliJ / Android Studio related
+# IntelliJ / Android Studio
 *.iml
 *.ipr
 *.iws
@@ -21,7 +22,7 @@ migrate_working_dir/
 # VS Code
 .vscode/
 
-# Flutter/Dart/Pub related
+# Flutter / Dart / Pub
 **/doc/api/
 **/ios/Flutter/.last_build_id
 .dart_tool/
@@ -31,27 +32,38 @@ migrate_working_dir/
 .pub/
 /build/
 
-# Symbolication related
+# Symbolication
 app.*.symbols
 
-# Obfuscation related
+# Obfuscation
 app.*.map.json
 
-# Android Studio build artefacts
+# Android build artefacts
 /android/app/debug
 /android/app/profile
 /android/app/release
+/android/.gradle/
+/android/.kotlin/
+/android/local.properties
 
-# Secrets - never commit real environment files or Firebase configs
+# Secrets and environment files
 .env
+.env.*
+!.env.example
+*.jks
+*.keystore
+key.properties
+/android/key.properties
+
+# Firebase configuration
 google-services.json
 GoogleService-Info.plist
 /android/app/google-services.json
 /ios/Runner/GoogleService-Info.plist
 
-# Generated Firebase config (keep example file)
+# Generated Firebase configuration
 lib/core/config/firebase_options.g.dart
 
-# Hive demo/local database files (dev machines)
+# Local database files
 *.hive
 *.lock
